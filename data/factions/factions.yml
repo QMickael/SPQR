@@ -1,0 +1,124 @@
+#factions
+#### gauls ####
+- name: "gauls"
+  leader: "vercingetorix"
+  logo: "logo_gauls"
+  capital: "lutecia"
+  colour_r: 200
+  colour_g: 200
+  colour_b: 200
+  playable: "True"
+  generals:
+	- name: "obelix"
+	- name: "asterix"
+  regions:
+	- name: "belgica"
+	- name: "parisii"
+  at_war:
+    - name: "romans"
+  allies:
+    - name: "germans"
+
+#### romans ####
+- name: "romans"
+  leader: "caesar"
+  logo: "logo_romans"
+  capital: "rome"
+  colour_r: 100
+  colour_g: 200
+  colour_b: 200
+  playable: "True"
+  generals:
+	- name: "scipius"
+	- name: "octavius"
+  regions:
+	- name: ""
+	- name: ""
+  at_war:
+    - name: "romans"
+    - name: "germans"
+    - name: "carthage"
+    - name: "gauls"
+	- name: "greeks"
+  allies:
+
+#### carthage ####
+- name: "carthage"
+  leader: "hannibal"
+  logo: "logo_carthage"
+  capital: "rome"
+  colour_r: 050
+  colour_g: 200
+  colour_b: 200
+  playable: "True"
+  generals:
+	- name: ""
+	- name: ""
+  regions:
+	- name: ""
+	- name: ""
+  at_war:
+    - name: "romans"
+  allies:
+    - name: "egypt"
+
+#### egypt ####
+- name: "egypt"
+  leader: "ptolemee"
+  logo: "logo_egypt"
+  capital: "rome"
+  colour_r: 025
+  colour_g: 200
+  colour_b: 200
+  playable: "True"
+  generals:
+	- name: ""
+	- name: ""
+  regions:
+	- name: ""
+	- name: ""
+  at_war:
+    - name: "greeks"
+    - name: "romans"
+  allies:
+    - name: "carthage"
+
+#### germans ####
+- name: "germans"
+  leader: "brus"
+  logo: "logo_germans"
+  capital: "rome"
+  colour_r: 200
+  colour_g: 100
+  colour_b: 200
+  playable: "True"
+  generals:
+	- name: ""
+	- name: ""
+  regions:
+	- name: ""
+	- name: ""
+  at_war:
+    - name: "romans"
+  allies:
+    - name: "gauls"
+
+#### greeks ####
+- name: "greeks"
+  leader: "achille"
+  logo: "logo_greeks"
+  capital: "rome"
+  colour_r: 050
+  colour_g: 200
+  colour_b: 100
+  playable: "True"
+  generals:
+	- name: ""
+	- name: ""
+  regions:
+	- name: ""
+	- name: ""
+  at_war:
+    - name: "romans"
+  allies:
+    - name: "carthage"

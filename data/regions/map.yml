@@ -1,0 +1,245 @@
+# YAML data for all regions
+
+- name: "lucania_et_bruttiun"
+  xpos: 1339
+  ypos: 1147
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1380
+  unit_y: 1184
+  city: "Brundisium"
+  population: 4000
+  naval:
+    - name: "latium_et_campania"
+    - name: "sicily"
+  borders:
+    - name: "apulia_et_calabria"
+    - name: "latium_et_campania"
+
+- name: "apulia_et_calabria"
+  xpos: 1309
+  ypos: 1076
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1429
+  unit_y: 1120
+  city: "Sybaris"
+  population: 4000
+  borders:
+    - name: "latium_et_campania"
+    - name: "lucania_et_bruttiun"
+
+- name: "latium_et_campania"
+  xpos: 1201
+  ypos: 1038
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1233
+  unit_y: 1103
+  city: "Roma"
+  population: 4000
+  naval:
+    - name: "sicily"
+    - name: "lucania_et_bruttiun"
+  borders:
+    - name: "lucania_et_bruttiun"
+    - name: "apulia_et_calabria"
+    - name: "aemilia"
+    - name: "etruria"
+
+- name: "aemilia"
+  xpos: 1157
+  ypos: 969
+  colour_r: 55
+  colour_g: 55
+  colour_b: 230
+  unit_x: 1225
+  unit_y: 979
+  city: "Arretium"
+  population: 4000
+  borders:
+    - name: "latium_et_campania"
+    - name: "etruria"
+    - name: "venetia_et_histria"
+
+- name: "etruria"
+  xpos: 1081
+  ypos: 970
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1147
+  unit_y: 1007
+  city: "Ariminum"
+  population: 4000
+  borders:
+    - name: "latium_et_campania"
+    - name: "aemilia"
+    - name: "transpadana"
+    - name: "venetia_et_histria"
+
+- name: "sicily"
+  xpos: 1245
+  ypos: 1300
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1340
+  unit_y: 1326
+  city: "Syracuse"
+  population: 4000
+  naval:
+    - name: "lucania_et_bruttiun"
+    - name: "latium_et_campania"
+    - name: "sardegna"
+    - name: "carthage"
+  borders:
+    - name: "sardegna"
+    - name: "lucania_et_bruttiun"
+    - name: "carthage"
+
+- name: "transpadana"
+  xpos: 924
+  ypos: 826
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 978
+  unit_y: 970
+  city: "Nicaea"
+  population: 4000
+  borders:
+    - name: "etruria"
+    - name: "venetia_et_histria"
+
+- name: "venetia_et_histria"
+  xpos: 1050
+  ypos: 802
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1186
+  unit_y: 831
+  city: "Aquileia"
+  population: 4000
+  borders:
+    - name: "transpadana"
+    - name: "etruria"
+    - name: "aemilia"
+
+- name: "sardegna"
+  xpos: 1030
+  ypos: 1161
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1080
+  unit_y: 1240
+  city: "Cagliari"
+  population: 4000
+  naval:
+    - name: "sicily"
+    - name: "latium_et_campania"
+    - name: "carthage"
+  borders:
+    - name: "sicily"
+
+- name: "corsica"
+  xpos: 1030
+  ypos: 1052
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1035
+  unit_y: 1120
+  city: "Alalia"
+  population: 4000
+  naval:
+    - name: "sardegna"
+    - name: "latium_et_campania"
+  borders:
+    - name: "sardegna"
+
+- name: "hibernia"
+  xpos: 75
+  ypos: 300
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 200
+  unit_y: 400
+  city: "Tara"
+  population: 4000
+  naval:
+    - name: "sardegna"
+    - name: "latium_et_campania"
+    - name: "kaledonon"
+  borders:
+    - name: "hibernia"
+
+- name: "cyprus"
+  xpos: 2160
+  ypos: 1322
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 2210
+  unit_y: 1335
+  city: "Constantia"
+  population: 4000
+  naval:
+    - name: "sardegna"
+    - name: "latium_et_campania"
+  borders:
+    - name: "sardegna"
+
+- name: "crete"
+  xpos: 1760
+  ypos: 1395
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1790
+  unit_y: 1400
+  city: "Knossos"
+  population: 4000
+  naval:
+    - name: "cyprus"
+    - name: "latium_et_campania"
+  borders:
+    - name: "cyprus"
+
+- name: "carthage"
+  xpos: 1082
+  ypos: 1387
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 1130
+  unit_y: 1390
+  city: "Carthage"
+  population: 4000
+  naval:
+    - name: "sicily"
+    - name: "sardegna"
+  borders:
+    - name: "sicily"
+    - name: "sardegna"
+
+- name: "kaledonon"
+  xpos: 0
+  ypos: 0
+  colour_r: 184
+  colour_g: 37
+  colour_b: 37
+  unit_x: 10
+  unit_y: 10
+  city: "Dunopalatar"
+  population: 4000
+  naval:
+    - name: "hibernia"
+  borders:
+    - name: "hibernia"
